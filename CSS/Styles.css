@@ -144,3 +144,43 @@
   grid-row-start: 1;
   grid-row-end: 3;
 }
+
+.info{
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.contact_msg{
+  color: #FDDA0D;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.num{
+  color: #FDDA0D;
+  font-size: 12px;
+}
+
+@media screen and (max-width :900px) {
+  .logo{
+    display: block;
+  }
+
+  .navbar li {
+    display: block;
+  }
+
+  .intoduction_container span{
+    font-size: 30px;
+  }
+
+  .banner{
+    background: url('../Images/car_img3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
